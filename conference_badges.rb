@@ -29,11 +29,11 @@ def printer(attendees)
   counter2 = 0
   
   attendees.each do |attendee|
-  puts batch_badge_creator(attendee[counter])
+  puts batch_badge_creator(attendee)
   counter += 1
   end
   attendees.each do |attendee|
-  puts assign_rooms(attendee[counter])
+  puts assign_rooms(attendee)
   counter2 +=1
   end
 end
